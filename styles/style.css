@@ -247,26 +247,12 @@
 }
 
 .section-title_theme_dark {
-  width: 60%;
-  margin: 0 auto 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
+  color: white;
   position: relative;
   z-index: 1;
-  display: flex;
-  justify-content:center;
-  color: white;
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  margin: 20px auto 0px;
-  font-weight: normal;
-  display: flex;
-  justify-content:center;
   color: white;
 }
 
@@ -282,6 +268,14 @@
   z-index: 1;
 }
 
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
@@ -292,6 +286,10 @@
 
 .footer__columns {
   min-height: 250px;
+  display: flex;
+}
+
+.footer__column {
   display: flex;
   margin: 0 auto;
 }
